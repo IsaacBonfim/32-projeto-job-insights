@@ -23,4 +23,4 @@ def read(path):
         for row in data:
             content.append(row)
 
-    return []
+    return content
