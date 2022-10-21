@@ -299,7 +299,7 @@ def test_sort_by_criteria():
     assert jobs == sorted_by_min_salary
 
     sort_by(jobs, "max_salary")
-    assert jobs == sorted_by_min_salary
+    assert jobs == sorted_by_max_salary
 
     sort_by(jobs, "date_posted")
-    assert jobs == sorted_by_min_salary
+    assert jobs == sorted_by_date_posted
