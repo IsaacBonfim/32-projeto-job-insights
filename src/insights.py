@@ -201,7 +201,7 @@ def matches_salary_range(job, salary):
 
     if (
         not job_validation(job)
-        or not int(job["min_salary"]) > int(job["max_salary"])
+        or int(job["min_salary"]) > int(job["max_salary"])
         or not isinstance(salary, int)
     ):
         raise ValueError()
